@@ -143,9 +143,16 @@ $('.balanceeur').click(function(balanceeur){
 <?php
 
  /* The API class */
+ /* 
+  * can be found here:
+  * https://github.com/CleverCoin/clever-api-client/blob/master/PHP/CleverAPIClientV1/CleverAPIClientV1.class.php
+  */
 require_once('CleverAPIClientV1.class.php');
 
  /* Your API credentials */
+ /* 
+  * Your account needs to be verrified for this app to be fully working.
+  */
 require_once('CleverAPIClientAuth.php');
 
  /* Load the API */
